@@ -1,6 +1,6 @@
 # Async
 Asynchrouous task queue
-## <a id ="379a3e8f5ebf32448aadf437a8427f78" name="379a3e8f5ebf32448aadf437a8427f78"></a> 1.10 获取飞播信息(废弃)
+## <a id ="379a3e8f5ebf32448aadf437a8427f78" name="379a3e8f5ebf32448aadf437a8427f78"></a> 1.10 查询信息
 
     /dubbo-controller/getfeibomsg2?userId=***
 
