@@ -34,7 +34,7 @@ Asynchrouous task queue
   "admin_password": "111111",
   "username": "test01",
   "password": "111111",
-  "domain": "ORG_221",
+  "domain": "221221",
   "userinfo": ""
 }
 ```
