@@ -21,6 +21,7 @@ Asynchrouous task queue
 | password       | 是       | String      |                                                              |
 | domain         | 是       | String      |                                                              |
 | userinfo       | 可选     | json String | 注册飞播时传递的包含用户信息的json字符串,没有暂时可不返回参数 |
+
 示例
 设置成功:
 
