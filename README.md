@@ -2,7 +2,7 @@
 Asynchrouous task queue
 ## <a id ="379a3e8f5ebf32448aadf437a8427f78" name="379a3e8f5ebf32448aadf437a8427f78"></a> 1.10 查询信息
 
-    /dubbo-controller/getfeibomsg2?userId=***
+    /getfeibomsg2?userId=***
 
 请求方式: GET
 | 参数名 | 是否必须 | 参数类型 | 参数说明 | 示例 |
@@ -23,6 +23,7 @@ Asynchrouous task queue
 | userinfo       | 可选     | json String | 注册飞播时传递的包含用户信息的json字符串,没有暂时可不返回参数 |
 
 示例
+
 设置成功:
 
 ```json
