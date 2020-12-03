@@ -1,26 +1,27 @@
 # Async
 Asynchrouous task queue
+看看GitHub怎么显示Markdown
 ## <a id ="379a3e8f5ebf32448aadf437a8427f78" name="379a3e8f5ebf32448aadf437a8427f78"></a> 1.10 查询信息
 
-    /getfeibomsg2?userId=***
+    /getInfo?uid=***
 
 请求方式: GET
 | 参数名 | 是否必须 | 参数类型 | 参数说明 | 示例 |
 | ------ | -------- | -------- | -------- | ---- |
-| userId | 是       | String   | 用户id   |      |
+| uid    | 是        | String   | 用户id   |      |
 
 返回数据格式:json
 返回参数
-| 参数名          | 是否必须 | 参数类型    | 参数说明                                                     |
-| -------------- | -------- | ----------- | ------------------------------------------------------------ |
-| resultCode     | 是       | int         | 0表示获取成功1 获取失败                                      |
-| resultInfo     | 是       | String      | "success"或"failure"                                         |
-| admin_username | 是       | String      | 注册飞播时的对应字段值,死数据暂时就返回死数据                |
-| admin_password | 是       | String      |                                                              |
-| username       | 是       | String      |                                                              |
-| password       | 是       | String      |                                                              |
-| domain         | 是       | String      |                                                              |
-| userinfo       | 可选     | json String | 注册飞播时传递的包含用户信息的json字符串,没有暂时可不返回参数 |
+| 参数名       | 是否必须  | 参数类型     | 参数说明               |
+| ----------- | -------- | ----------- | -------------------- |
+| resultCode  | 是       | int         | 0表示获取成功1 获取失败  |
+| resultInfo  | 是       | String      | "success"或"failure"  |
+| username    | 是       | String      | 用户名                |
+| nickname    | 是       | String      |      昵称             |
+| profile     | 是       | String      | 头像                  |
+| level       | 是       | String      |      等级             |
+| telephone   | 是       | String      |   电话                |
+| born        | 是       | String      | 生日                  |
 
 示例
 
@@ -30,11 +31,13 @@ Asynchrouous task queue
 {
   "resultCode": 0,
   "resultInfo": "success",
-  "admin_username": "admin",
+  "username": "admin",
   "admin_password": "111111",
   "username": "test01",
-  "password": "111111",
-  "domain": "221221",
-  "userinfo": ""
+  "nickname": "111111",
+  "profile": "221221",
+  "level": "",
+  "telephone": "",
+  "born": ""
 }
 ```
